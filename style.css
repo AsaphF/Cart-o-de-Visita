@@ -1,0 +1,28 @@
+body{
+	background-color: black;
+}
+.card{
+	width: 400px;
+	height: 200px;
+  	box-sizing: border-box; /*Isso eu não soube fazer sozinho*/
+	background: url(./assets/backgroung.png.png); background-repeat: no-repeat;
+	padding: 1px 20px; /*Isso eu não soube fazer sozinho*/
+	background-size: cover; /*Isso eu não soube fazer sozinho*/
+	margin: auto;  /*Isso eu não soube fazer sozinho*/
+	font-family:'Courier New';
+}	
+a{
+	text-decoration: none;
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: 500;
+	color: black;
+}
+.l1{
+	list-style-image: url(./assets/Insta.png.png);
+}
+.l2{
+	list-style-image: url(./assets/twitter.png.png);
+}
+.l3{
+	list-style-image: url(./assets/youtube.png.png);
+}
